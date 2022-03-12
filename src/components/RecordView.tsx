@@ -23,6 +23,7 @@ export const RecordView = () => {
     return () => {
       clearInterval(stopInterval);
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [stopTime]);
 
   const handleSave = () => {

@@ -1,6 +1,5 @@
-import React, { useState } from 'react';
-import './App.css';
 import { RecordView } from './components/RecordView';
+import './App.css';
 
 export const App = () => {
   return (
